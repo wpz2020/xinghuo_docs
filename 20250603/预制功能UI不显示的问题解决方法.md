@@ -10,15 +10,15 @@
 
 > 打开数据编辑器，在类型列表中勾选gui控件和模板。
 
-![](/assets/images/1-fcfcdf6d8b42de7fa74ad3a59af53bf5.png)
+![](https://doc.sce.xd.com/assets/images/1-fcfcdf6d8b42de7fa74ad3a59af53bf5.png)
 
 > 在模板目录下，找到gui控件模板。
 
-![](/assets/images/2-6fa2b89dfe3bb8169d0a8502270379bc.png)
+![](https://doc.sce.xd.com/assets/images/2-6fa2b89dfe3bb8169d0a8502270379bc.png)
 
 > 找到gui控件模板中的mainpage，将没有显示ui的预制功能面板连接到mainpage。
 
-![](/assets/images/4-a0244c8e8267ab512dd3a42122bcfca6.png)
+![](https://doc.sce.xd.com/assets/images/4-a0244c8e8267ab512dd3a42122bcfca6.png)
 
 保存项目后重启编辑器，再次打开项目时就能在界面编辑器看到该预制功能的ui了。
 

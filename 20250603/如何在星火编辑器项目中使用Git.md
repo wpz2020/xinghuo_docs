@@ -23,23 +23,23 @@
 
 点击浏览，选择现有项目的**文件夹根目录** （项目文件夹可以在编辑器菜单的『文件-打开当前项目文件夹』获取），选好之后点击创建按钮。
 
-![](/assets/images/1_1-4213dee126b190b2d38e395152170af8.png)
+![](https://doc.sce.xd.com/assets/images/1_1-4213dee126b190b2d38e395152170af8.png)
 
 点击创建，会弹出一个对话框，这里选择是。
 
-![](/assets/images/1_2-068995f0e177435ee3a4cebffca4f570.png)
+![](https://doc.sce.xd.com/assets/images/1_2-068995f0e177435ee3a4cebffca4f570.png)
 
 建好仓库后，可以看到下方暂存文件栏内出现了该项目的所有文件。此时点击『**暂存所有** 』按钮，会把这些项目文件放到待提交区域。
 
-![](/assets/images/1_3-aaa55496e2293a98aee095a446fbfac3.png)
+![](https://doc.sce.xd.com/assets/images/1_3-aaa55496e2293a98aee095a446fbfac3.png)
 
 选择待提交的文件后，需要在下方提交栏内填写提交说明，并点击提交按钮，完成本次提交。
 
-![](/assets/images/1_4-0d9fabbec9d7bb11c7d6ca2b8ab96e5d.png)
+![](https://doc.sce.xd.com/assets/images/1_4-0d9fabbec9d7bb11c7d6ca2b8ab96e5d.png)
 
 点击提交按钮，即可看到SourceTree内出现了刚才的这次提交记录和提交信息。
 
-![](/assets/images/1_5-5c252cc2843b06a9719641c2802668db.png)
+![](https://doc.sce.xd.com/assets/images/1_5-5c252cc2843b06a9719641c2802668db.png)
 
 ## 上传项目到Gitee[​](/Manual/VersionControl/GitInSCE#上传项目到gitee "上传项目到Gitee的直接链接")
 
@@ -49,11 +49,11 @@
 
 进入个人中心页面后，点击右上角的+号按钮，选择**新建仓库** 。
 
-![](/assets/images/2_1-fb36f14ff60b01d737e174deb7fe70b4.png)
+![](https://doc.sce.xd.com/assets/images/2_1-fb36f14ff60b01d737e174deb7fe70b4.png)
 
 在新建仓库的页面中，填写仓库名称和仓库介绍，最后点击下方创建按钮，这样一个空的仓库就已经创建好了。
 
-![](/assets/images/2_2-d4e4cdc6748001f5944223fa53691bc6.png)
+![](https://doc.sce.xd.com/assets/images/2_2-d4e4cdc6748001f5944223fa53691bc6.png)
 
 回到SourceTree，点击右侧**远端** 按钮，配置当前项目的远端仓库。
 
@@ -61,24 +61,24 @@
 
 这里可以看到有一个远端项目配置的提示对话框，点击设置即可。
 
-![](/assets/images/2_4-708582e67ead4eb46e189136555eae45.png)
+![](https://doc.sce.xd.com/assets/images/2_4-708582e67ead4eb46e189136555eae45.png)
 
 在弹出的窗口中点击添加，需填写刚才创建好的仓库的**远端名称** （仓库名称）和**地址** （网页地址），填写好之后点击确定。
 
-![](/assets/images/2_5-17736b8a9d502d6e3d5b48df78c0d3d5.png)
+![](https://doc.sce.xd.com/assets/images/2_5-17736b8a9d502d6e3d5b48df78c0d3d5.png)
 
-![](/assets/images/2_6-727cb6386725ac21e065a443773d3c04.png)
+![](https://doc.sce.xd.com/assets/images/2_6-727cb6386725ac21e065a443773d3c04.png)
 
 配置好远端仓库的连接后，可以点击左侧**推送**
 按钮，把当前项目推送到远端服务器。推送时，需要选择当前开发的分支进行推送，新项目只需要勾选主分支master并点击推送。
 
 ![](data:image/png;base64,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)
 
-![](/assets/images/2_7-c84f83406574249291f9baa5e06c25e5.png)
+![](https://doc.sce.xd.com/assets/images/2_7-c84f83406574249291f9baa5e06c25e5.png)
 
 在推送的过程中，系统可能会提示要求输入账号密码，这里填写的是Gitee的账号密码。
 
-![](/assets/images/2_8-b8bde571f47278dfceb50aa16588f3e9.png)
+![](https://doc.sce.xd.com/assets/images/2_8-b8bde571f47278dfceb50aa16588f3e9.png)
 
 至此，当前游戏项目已经推送到了Gitee服务器，可以和其他开发者协作开发游戏了，其他Git相关操作请参考[这篇教程](/Manual/VersionControl/docs/1_Manual/14_AdvancedTutorial/2_VersionControl/1_Sourcetree.md)。
 
@@ -99,7 +99,7 @@ i18n| 存放本地化数据的文件夹，其中包含一个default.json（默�
   
 更改/添加/删除一个数编蓝图后，以上文件或改动全部需要上传。
 
-![](/assets/images/3_1_1-925a6625da22cbd06ed2675792493277.png)
+![](https://doc.sce.xd.com/assets/images/3_1_1-925a6625da22cbd06ed2675792493277.png)
 
 ### 触发编辑器[​](/Manual/VersionControl/GitInSCE#触发编辑器 "触发编辑器的直接链接")
 
@@ -107,7 +107,7 @@ i18n| 存放本地化数据的文件夹，其中包含一个default.json（默�
 
 trigger_module.json和trigger_module.json.declare为所有触发器元素的定义集合；每个触发器元素（触发器、函数、类、事件、变量等）单独在data文件夹下存放。修改触发器后，待上传的文件如下图所示：
 
-![](/assets/images/3_2_1-5c60038248fbda007d99a45f379b4c78.png)
+![](https://doc.sce.xd.com/assets/images/3_2_1-5c60038248fbda007d99a45f379b4c78.png)
 
 **注意：使用git拉取最新工程后，需要运行项目目录下update_file.bat来重置触发编辑器的状态，否则保存项目有概率不会保存触发器。**
 
@@ -119,7 +119,7 @@ trigger_module.json和trigger_module.json.declare为所有触发器元素的定�
 
 在界面编辑器中修改/增加/删除页面后，可以在Git中看到数编数据已经发生了变化。界面编辑器的模板蓝图存储在editor/table/entry_data/template@gui_ctrl目录下，需要全部上传。
 
-![](/assets/images/3_3_1-fbe6d3c2b7bfc7594207c4e94fd7516d.png)
+![](https://doc.sce.xd.com/assets/images/3_3_1-fbe6d3c2b7bfc7594207c4e94fd7516d.png)
 
 #### UI事件[​](/Manual/VersionControl/GitInSCE#ui事件 "UI事件的直接链接")
 
@@ -143,7 +143,7 @@ trigger_module.json和trigger_module.json.declare为所有触发器元素的定�
 
 更改现有地图的地形后，保存项目，可以看到scene目录下当前场景的文件夹出现了改动，需要上传。此外，服务端（script）和客户端（ui/script）的触发器目录下也会更新场景区域相关信息（area_save.lua），需要一并上传。
 
-![](/assets/images/3_5_1-5e966c0d4e64342d35509147b4950c06.png)
+![](https://doc.sce.xd.com/assets/images/3_5_1-5e966c0d4e64342d35509147b4950c06.png)
 
 #### 添加新场景[​](/Manual/VersionControl/GitInSCE#添加新场景 "添加新场景的直接链接")
 

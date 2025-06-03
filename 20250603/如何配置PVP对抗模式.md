@@ -15,19 +15,19 @@
 第一步：通过数据编辑器设置游戏队伍分配方式[​](/Manual/Developer/DevStage/PlayerVsPlayer#第一步通过数据编辑器设置游戏队伍分配方式
 "第一步：通过数据编辑器设置游戏队伍分配方式的直接链接")
 
-![](/assets/images/教学-地图设置-5ffe0ef7ff661caad84e7e6dd27eaf25.png)
+![](https://doc.sce.xd.com/assets/images/教学-地图设置-5ffe0ef7ff661caad84e7e6dd27eaf25.png)
 
 打开数据编辑器，进入项目蓝图中的地图设置，打开[dflt]蓝图。即可看到当前项目中的最大玩家数量、玩家归属阵营等信息。
 
-![](/assets/images/8人-8253bf71377fc7fcff47ea0586b59c0a.png)
+![](https://doc.sce.xd.com/assets/images/8人-8253bf71377fc7fcff47ea0586b59c0a.png)
 
 以4V4对抗为例，我们首先将玩家最大人数添加至8人。
 
-![](/assets/images/真人-96466d86a0ae2f4371b43fd862c3abeb.png)
+![](https://doc.sce.xd.com/assets/images/真人-96466d86a0ae2f4371b43fd862c3abeb.png)
 
 调整单位控制者，全部改为真人。
 
-![](/assets/images/阵营分配-26a03b11b2afaa942fa1bec781b6cb1c.png)
+![](https://doc.sce.xd.com/assets/images/阵营分配-26a03b11b2afaa942fa1bec781b6cb1c.png)
 
 调整玩家阵营归属，将8名玩家平均分配至两个队伍。如果是不规则对抗，也按照规则分配到不同队伍。槽位从上往下，对应着大厅组队房间中的玩家位置，例如这个房间是2人的，会按玩家配置的前两个位置分配。
 
@@ -42,15 +42,15 @@
 ## 第二步：4V4大厅配置[​](/Manual/Developer/DevStage/PlayerVsPlayer#第二步4v4大厅配置
 "第二步：4V4大厅配置的直接链接")
 
-![](/assets/images/进入多模式-bd4411c6b84bd1a7f521183bfaa4d84f.png)
+![](https://doc.sce.xd.com/assets/images/进入多模式-bd4411c6b84bd1a7f521183bfaa4d84f.png)
 
 完成项目玩家分配后，创作者中心中打开该项目，进入游戏多模式配置界面。
 
-![](/assets/images/选择模式-6db6addf12bd766affb9c8666034278a.png)
+![](https://doc.sce.xd.com/assets/images/选择模式-6db6addf12bd766affb9c8666034278a.png)
 
 添加模式，选择多人组队或多人匹配。
 
-![](/assets/images/最大人数8人-1e69fbace0284a4612277a44b0461a7e.png)
+![](https://doc.sce.xd.com/assets/images/最大人数8人-1e69fbace0284a4612277a44b0461a7e.png)
 
 房间最大人数设置8人。
 

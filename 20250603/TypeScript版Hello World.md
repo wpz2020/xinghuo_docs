@@ -13,9 +13,9 @@
 
 ## 服务端[​](/技术文档/代码开发必读/HelloWorld_TS#服务端 "服务端的直接链接")
 
-  1. 首先我们需要在我们的触发编辑器中创建自定义脚本文件： ![](/assets/images/ts的创建-fbd8ddd63f7c29a7e4c8797ba821dc88.png)
+  1. 首先我们需要在我们的触发编辑器中创建自定义脚本文件： ![](https://doc.sce.xd.com/assets/images/ts的创建-fbd8ddd63f7c29a7e4c8797ba821dc88.png)
 
-  2. 在创建好文件后选择文本模式为：ts ![](/assets/images/选择ts-8516ea25715a808665feefd3576a75b5.png)
+  2. 在创建好文件后选择文本模式为：ts ![](https://doc.sce.xd.com/assets/images/选择ts-8516ea25715a808665feefd3576a75b5.png)
 
   3. 右键我们创建好的文件使用文本编辑器打开输入代码
 
@@ -38,7 +38,7 @@
 
 保存并调试发现服务端正常输出
 
-![](/assets/images/new06-1fbe95a6a1ffde1e88da51358d79f5dc.png)
+![](https://doc.sce.xd.com/assets/images/new06-1fbe95a6a1ffde1e88da51358d79f5dc.png)
 
 ## 客户端[​](/技术文档/代码开发必读/HelloWorld_TS#客户端 "客户端的直接��链接")
 
@@ -61,7 +61,7 @@
     }  
     
 
-![](/assets/images/new07-f1a98b738f4848bad0b602ba0161c4a0.png)
+![](https://doc.sce.xd.com/assets/images/new07-f1a98b738f4848bad0b602ba0161c4a0.png)
 
 提示
 

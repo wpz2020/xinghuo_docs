@@ -13,7 +13,7 @@
 
 目前已有一款游戏上线Steam，欢迎前往添加愿望单：[无为之为的阴阳迷宫](https://store.steampowered.com/app/2967690)
 
-![](/assets/images/steam-09845a5b67784069ed745632063a7ce5.png)
+![](https://doc.sce.xd.com/assets/images/steam-09845a5b67784069ed745632063a7ce5.png)
 
 ###
 在开发者决定将星火制作的游戏在Steam上发行前，请了解以下信息：[​](/Manual/GamePublish/Steam#在开发者决定将星火制作的游戏在steam上发行前请了解以下信息

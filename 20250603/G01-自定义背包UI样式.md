@@ -17,23 +17,23 @@
 
 首先打开预制功能库，将通用背包拖到属性面板中，然后点击应用。
 
-![](/assets/images/1-a1899bcf1a65b8ef42f08ee3e8a765cc.png)
+![](https://doc.sce.xd.com/assets/images/1-a1899bcf1a65b8ef42f08ee3e8a765cc.png)
 
 打开数据编辑器，在物品背包中点击新建蓝图，选择 背包/装备栏节点 作为模板。在其右侧的节点属性中，点击新增格子后，可以对格子进行定义。
 
-![](/assets/images/2-711a584a3a60f8b5874d508c352ad0d2.png)
+![](https://doc.sce.xd.com/assets/images/2-711a584a3a60f8b5874d508c352ad0d2.png)
 
 在界面布局这里，可以选择该背包的显示方式。编辑器提供了三种预设背包，即ABC这三类，如需自定义背包样式，可以选择GH中的任意一个。
 
-![](/assets/images/3-88089c06e14cfe05d2cd8ff28bcea865.png)
+![](https://doc.sce.xd.com/assets/images/3-88089c06e14cfe05d2cd8ff28bcea865.png)
 
 对于背包内物品类型和品质颜色，物品外框的配置，可以在通用背包配置中进行设置。
 
-![](/assets/images/5-9bd4411a56de200be4732e8d6b5120e3.png)
+![](https://doc.sce.xd.com/assets/images/5-9bd4411a56de200be4732e8d6b5120e3.png)
 
 然后在数据编辑器中，找到你需要装配该背包的单位，将该背包连接到单位的背包列表中。
 
-![](/assets/images/4-25612e6b5621fd4bc5f238bfcdf0dac0.png)
+![](https://doc.sce.xd.com/assets/images/4-25612e6b5621fd4bc5f238bfcdf0dac0.png)
 
 背包样式的设计要在界面编辑器中进行，将组件库中的自定义背包面板拖入界面中，然后将自定义背包格子拖到面板上方。需要注意自定义背包格子必须要作为自定义背包面板的子控件存在。
 
@@ -54,9 +54,9 @@
 
 此外，服务端和客户端均新增了背包相关的触发语句，用于打开和关闭通用背包。对于自定义ui的背包，需要在客户端的触发中使用触发语句来控制该背包面板的显隐。
 
-![](/assets/images/10-e17f2979874b85b16fca232d5a90ed9b.png)
+![](https://doc.sce.xd.com/assets/images/10-e17f2979874b85b16fca232d5a90ed9b.png)
 
-![](/assets/images/11-67d729d77278069c4b476be4d583653d.png)
+![](https://doc.sce.xd.com/assets/images/11-67d729d77278069c4b476be4d583653d.png)
 
 [上一页预制功能UI不显示的问题解决方法](/Manual/Library/uiProblem)[下一页G01-多功能物品格](/Manual/Library/MultiDocker)
 

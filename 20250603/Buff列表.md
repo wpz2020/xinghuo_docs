@@ -11,7 +11,7 @@
 
 Buff列表可以在界面中显示主控单位拥有的所有Buff信息，可以显示各Buff的刷新时间、图标、叠加层数和提示。
 
-![](/assets/images/BuffList-d1d3504797c449d82581d92ba813d5e5.png)
+![](https://doc.sce.xd.com/assets/images/BuffList-d1d3504797c449d82581d92ba813d5e5.png)
 
 ### 属性列表[​](/Manual/UIEditor/Components/BuffList#属性列表 "属性列表的直接链接")
 
@@ -39,21 +39,21 @@ Buff列表的使用无需触发器干预，将Buff列表放在UI中，游戏时�
 
 除了使用Buff列表绑定主控单位的所有Buff外，也可以使用Buff图标绑定并显示单个Buff的信息，该控件与Buff列表的单个图标表现一致。
 
-![](/assets/images/BuffIcon-ebccb87fc482d45952fe05dee5cec16c.png)
+![](https://doc.sce.xd.com/assets/images/BuffIcon-ebccb87fc482d45952fe05dee5cec16c.png)
 
 ### Buff描述[​](/Manual/UIEditor/Components/BuffList#buff描述 "Buff描述的直接链接")
 
 在Buff列表以及Buff图标中，可以添加Buff描述控件来实现点击图标后显示该Buff描述的功能。
 
-![](/assets/images/BuffDescExample-1cf8fdd2e7919bb6b3cc87cecc2f1ccf.gif)
+![](https://doc.sce.xd.com/assets/images/BuffDescExample-1cf8fdd2e7919bb6b3cc87cecc2f1ccf.gif)
 
 使用Buff描述控件时，必须把该控件放到Buff列表或Buff图标的**子控件** 中，如图所示：
 
-![](/assets/images/BuffDesc_1-099486030e7dad5bedd0a671340a421a.png)
+![](https://doc.sce.xd.com/assets/images/BuffDesc_1-099486030e7dad5bedd0a671340a421a.png)
 
 此外，还需要在数据编辑器中，配置Buff的描述文本。如果描述文本为空，点击Buff图标不会出现任何描述提示。
 
-![](/assets/images/BuffDesc_2-7afe6ee7ee0bffd1cd3f627ca2a25592.png)
+![](https://doc.sce.xd.com/assets/images/BuffDesc_2-7afe6ee7ee0bffd1cd3f627ca2a25592.png)
 
 **标签：**
 

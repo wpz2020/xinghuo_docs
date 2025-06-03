@@ -15,8 +15,8 @@
 
 为了方便用户理解调试数据编辑器中效果树的概念，我们增加全新的作弊码VisualizeRefParam，缩写为**vrp** 。
 效果树可视化模式下，引擎会有以下的变化：
-![](/assets/images/技能的搜索单位节点范围-425e611f2c39d9341681c625b74a1cf4.webp)
-![](/assets/images/各个节点的执行逻辑-454c7deccdad8244bd2ff318fa28b400.webp)
+![](https://doc.sce.xd.com/assets/images/技能的搜索单位节点范围-425e611f2c39d9341681c625b74a1cf4.webp)
+![](https://doc.sce.xd.com/assets/images/各个节点的执行逻辑-454c7deccdad8244bd2ff318fa28b400.webp)
 
 ## 如何使用VRP？[​](/Manual/TriggerEditor/Debug/效果节点可视化调试模式VRP#如何使用vrp
 "如何使用VRP？的直接链接")

@@ -34,7 +34,7 @@ iPad Pro| 4:3| 2732*2048
 
 ### 布局[​](/Manual/UIEditor/UIHowTos/AdaptiveDesign#布局 "布局的直接链接")
 
-![](/assets/images/Layout-cbb05fac5cb8c3f4e25d90be48e07482.png)
+![](https://doc.sce.xd.com/assets/images/Layout-cbb05fac5cb8c3f4e25d90be48e07482.png)
 
 布局定义了元素的位置、大小和排列方式。每个UI元素（页面、控件）都有一个矩形外边框。在编辑视图中，可以操作该矩形进行移动、缩放等操作，从而改变布局。
 
@@ -46,7 +46,7 @@ iPad Pro| 4:3| 2732*2048
 
 一个UI元素的锚点是相对父控件的固定点，这个元素的中心到锚点的距离是永恒不变的。锚点类似一根钉子，把一块画布的某个角钉住，无论怎么拉伸，被钉住的这个角都不会变。
 
-![](/assets/images/Anchor-140c6aff55edd9417a2a74243c45f800.gif)
+![](https://doc.sce.xd.com/assets/images/Anchor-140c6aff55edd9417a2a74243c45f800.gif)
 
 > UI元素锚定到父控件的右上角，与父控件保持固定偏移
 
@@ -68,7 +68,7 @@ iPad Pro| 4:3| 2732*2048
 
 编辑器提供三种扩展权重的方式，如下图和表格所示：
 
-![](/assets/images/ExpandWeight-9776169355c59749c1899ca9f6b46d41.png)
+![](https://doc.sce.xd.com/assets/images/ExpandWeight-9776169355c59749c1899ca9f6b46d41.png)
 
 扩展权重| 作用  
 ---|---  
@@ -84,7 +84,7 @@ iPad Pro| 4:3| 2732*2048
 
 注：此处的宽高比为编辑器中宽高比中短边和长边的比值。如宽高比为2:1，则实际宽高比的比值为1/2=0.5
 
-![](/assets/images/ExpandDemo-54f2a47a618a03ee5b2a230bd751c635.gif)
+![](https://doc.sce.xd.com/assets/images/ExpandDemo-54f2a47a618a03ee5b2a230bd751c635.gif)
 
 > 示例：锚点为中心，相对位置(0, 0)，以宽为基准扩展，尺寸扩展权重0.5，宽高比2：1，控件会根据大小自动缩放
 
@@ -93,7 +93,7 @@ iPad Pro| 4:3| 2732*2048
 
 在UI制作过程中，一般使用一种标准分辨率（如2340*1080）搭建，完成后切换其他设备的分辨率验证UI适配是否正确。此外，还可以在游戏视图中选择自由比例，通过改变游戏视图的宽高进行UI适配验证。
 
-![](/assets/images/GameResolution-126d593a74a274c34af423c3e440cff3.png)
+![](https://doc.sce.xd.com/assets/images/GameResolution-126d593a74a274c34af423c3e440cff3.png)
 
 ### 自适应位置方法[​](/Manual/UIEditor/UIHowTos/AdaptiveDesign#自适应位置方法
 "自适应位置方法的直接链接")
@@ -102,7 +102,7 @@ iPad Pro| 4:3| 2732*2048
 
 一种将控件保持在屏幕内的办法是：通过改变布局，将控件的位置通过锚点绑定在屏幕四周而不是中央,用相对尺寸确定实际位置。一旦这些控件锚定到各自的角点，无论分辨率或父控件的尺寸如何修改，这些按钮都会固定在对应位置上。
 
-![](/assets/images/AnchorFitExample-88f5ddc89fac252ce973eb20b80e4c6c.png)
+![](https://doc.sce.xd.com/assets/images/AnchorFitExample-88f5ddc89fac252ce973eb20b80e4c6c.png)
 
 > 屏幕左上、右上、正下方分别有三个按钮。左侧为标准分辨率下的状态，当改变分辨率时，不同锚点的适配情况如右图所示
 
@@ -111,13 +111,13 @@ iPad Pro| 4:3| 2732*2048
 
 用上述方法适配好位置之后，UI元素会根据屏幕大小自动确定位置。但是由于元素的尺寸是以像素为单位且固定的，当屏幕分辨率过大或过小时，这些元素的尺寸仍然不变，所以占据屏幕的比例会变大或变小，在极端场景下甚至影响用户体验，如图所示：
 
-![](/assets/images/SizeExample-76d713d51708b9b527d28ecb8f1befc9.png)
+![](https://doc.sce.xd.com/assets/images/SizeExample-76d713d51708b9b527d28ecb8f1befc9.png)
 
 可以看到，不同分辨率下控件的尺寸各不相同。这种情况下需要开启扩展权重，使用尺寸权重确定相对比例，以保证不同分辨率下用户的视觉感受是一样的。
 
-![](/assets/images/SizeFit1-d0716f6a9a3a5330a1fafbe417fd6971.png)
+![](https://doc.sce.xd.com/assets/images/SizeFit1-d0716f6a9a3a5330a1fafbe417fd6971.png)
 
-![](/assets/images/SizeFit2-929a6c259516c9434637dea0dda92255.png)
+![](https://doc.sce.xd.com/assets/images/SizeFit2-929a6c259516c9434637dea0dda92255.png)
 
 > 将两个按钮放在一个Panel中，将新创建的Panel和按钮的扩展权重模式设置成以高为基准扩展，并设置对应宽高比，就可以实现根据分辨率按比例缩放。
 

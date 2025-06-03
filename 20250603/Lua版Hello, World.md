@@ -34,12 +34,12 @@ Lua API请参考[这篇文档](docs/3_技术文档/40_服务端Lua API/00_简介
 
 如图所示
 
-![](/assets/images/new01-ecd0795c6f8b035e3f3e8eb9c0713ce1.png)
+![](https://doc.sce.xd.com/assets/images/new01-ecd0795c6f8b035e3f3e8eb9c0713ce1.png)
 
 添加完毕后打开项目，会弹出需要重载地图资源，点击取消后调试项目并保存会发现我们的服务端输出了 "Hello,world!"
 
-![](/assets/images/地图显示重载-9d9aa963430a6565d81def7e14510836.png)
-![](/assets/images/new02-2780c247eacd7752cc47a1eeeba169cc.png)
+![](https://doc.sce.xd.com/assets/images/地图显示重载-9d9aa963430a6565d81def7e14510836.png)
+![](https://doc.sce.xd.com/assets/images/new02-2780c247eacd7752cc47a1eeeba169cc.png)
 
 接下来我们尝试在客户端用lua输出：
 
@@ -66,7 +66,7 @@ Lua API请参考[这篇文档](docs/3_技术文档/40_服务端Lua API/00_简介
 
 与服务端同理，不重载项目资源，然后进行调试:
 
-![](/assets/images/new04-e8ec0b479c550a806f43da799c03304b.png)
+![](https://doc.sce.xd.com/assets/images/new04-e8ec0b479c550a806f43da799c03304b.png)
 
 **标签：**
 

@@ -18,7 +18,7 @@ Lua+是我们扩充了语法的Lua，目前已被废弃。如果用其它文本�
 
 如果你要使用纯Lua API开发，且完全不使用触发编辑器编写的逻辑，那么需要执行以下步骤：
 
-  1. 在触发编辑器中，新建一个TypeScript脚本文件夹，并重命名 ![](/assets/images/img-6e3e1ddb6872edd059210403fe9d8d50.png)
+  1. 在触发编辑器中，新建一个TypeScript脚本文件夹，并重命名 ![](https://doc.sce.xd.com/assets/images/img-6e3e1ddb6872edd059210403fe9d8d50.png)
   2. 使用VS Code打开项目文件夹，在刚才建立的文件夹里面创建lua脚本
   3. 在src/main.lua（客户端是ui/src/main.lua）里面require刚才创建好的lua脚本
 

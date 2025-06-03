@@ -18,7 +18,7 @@
 [使用Lua或TypeScript进行开发](https://doc.sce.xd.com/Manual/TriggerEditor/Advanced/Code)
 
 如果坚持使用代码开发，建议加入星火非官方代码开发社区：  
-![](/assets/images/TS群二维码-41ea8c683deff7145e7f825a7e6dd936.png)
+![](https://doc.sce.xd.com/assets/images/TS群二维码-41ea8c683deff7145e7f825a7e6dd936.png)
 
 **标签：**
 

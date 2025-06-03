@@ -11,7 +11,7 @@
 
 UI场景控件可以在UI上显示3D场景，并可在其中创建和操作**客户端** 单位和表现。
 
-![](/assets/images/UIScene-785114deeccd215464b8a35d14360ac0.png)
+![](https://doc.sce.xd.com/assets/images/UIScene-785114deeccd215464b8a35d14360ac0.png)
 
 『UI场景』实际上是两个概念——场景和控件的结合体。用户需要通过客户端触发器来创建和操作后台UI场景，但UI场景在被触发器创建后只是一些内存中的代码，它们仍需要通过界面编辑器的UI控件才能被显示出来，因此用于显示的『UI场景控件』和被显示的『UI场景』其实是两个不同的对象。
 
@@ -22,7 +22,7 @@ UI场景控件可以在UI上显示3D场景，并可在其中创建和操作**客
 渲染路径| 控制UI场景背景是否透明  
 不透明：和正常场景显示一致  
 半透明混合：UI场景背景透明，但需要消耗两倍的算力  
-![](/assets/images/Transparent-8588946731e96892d9fe1ccd42ab23d5.png)  
+![](https://doc.sce.xd.com/assets/images/Transparent-8588946731e96892d9fe1ccd42ab23d5.png)  
   
 ### UI场景单位和表现的特性[​](/Manual/UIEditor/Components/UIScene#ui场景单位和表现的特性
 "UI场景单位和表现的特性的直接链接")
@@ -67,7 +67,7 @@ UI场景中的单位和表现可以通过面向对象方法执行以下操作：
 
 可以通过客户端触发器『创建UI场景』来创建一个新的UI场景。该函数返回新建的UI场景，并可选择是否在场景中显示阴影，以及是否加载指定的地编场景。
 
-![](/assets/images/CreateUIScene-3f4187d8a28858003e01bd446eadff49.png)
+![](https://doc.sce.xd.com/assets/images/CreateUIScene-3f4187d8a28858003e01bd446eadff49.png)
 
   * 默认镜头
 
@@ -91,7 +91,7 @@ UI场景创建完成后，必须通过一个变量记录其返回的UI场景对�
 
 反之，使用『解除绑定UI场景』语句会使UI场景与UI场景控件解除绑定，控件不再显示UI场景的内容。
 
-![](/assets/images/BindScene-04c51fb5c998279ad409dbfd3b28404c.png)
+![](https://doc.sce.xd.com/assets/images/BindScene-04c51fb5c998279ad409dbfd3b28404c.png)
 
 『绑定UI场景』方法还可指定控件是静态还是动画绘制指定的UI场景，若选择静态，则控件上显示的画面将永远静止，只会持续显示绑定的那一瞬间UI场景的内容。若不选择静态渲染，则控件会实时反映所绑定的UI场景的变化。
 
@@ -100,7 +100,7 @@ UI场景创建完成后，必须通过一个变量记录其返回的UI场景对�
 
 在UI上显示3D场景通常并不仅仅是为了显示一块光秃秃的地形。因此星火编辑器允许用户像对待普通场景一样，在UI场景里创建和控制单位以及表现。
 
-![](/assets/images/CreateObj-bc99bda98199d3ab4deb4cd1766d629c.png)
+![](https://doc.sce.xd.com/assets/images/CreateObj-bc99bda98199d3ab4deb4cd1766d629c.png)
 
 #### 调整视口尺寸[​](/Manual/UIEditor/Components/UIScene#调整视口尺寸 "调整视口尺寸的直接链接")
 
@@ -112,7 +112,7 @@ UI场景创建完成后，必须通过一个变量记录其返回的UI场景对�
 
 在UI场景中，可以指定不同的场景镜头，并可以设置当前镜头的位置和旋转。
 
-![](/assets/images/SetCam-6846d953c67a5a99e1dbeff1fedb2e3e.png)
+![](https://doc.sce.xd.com/assets/images/SetCam-6846d953c67a5a99e1dbeff1fedb2e3e.png)
 
 #### 销毁UI场景[​](/Manual/UIEditor/Components/UIScene#销毁ui场景 "销毁UI场景的直接链接")
 

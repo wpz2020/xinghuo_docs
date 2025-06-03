@@ -21,7 +21,7 @@
 
   1. 在文件中，找到【导出为独立包】，选择 Windows
 
-![](/assets/images/打开导入-3244273bea8bc9e4aa2bba7174ccc2ed.png)
+![](https://doc.sce.xd.com/assets/images/打开导入-3244273bea8bc9e4aa2bba7174ccc2ed.png)
 
   2. 输入项目名称
 
@@ -39,19 +39,19 @@
   3. 在[Tap 开发者服务](https://developer.taptap.cn/)注册成为开发者
   4. 创建游戏，在游戏服务里开启应用配置
 
-![](/assets/images/游戏服务-6883bb03cce63ddb1b8e4fbf64dcdfd4.png)
+![](https://doc.sce.xd.com/assets/images/游戏服务-6883bb03cce63ddb1b8e4fbf64dcdfd4.png)
 
   5. 在基本信息中，拿到生成的 ClientID 和 ClientToken，对应填入编辑器内
 
-![](/assets/images/添加对应-84be08b2507632d73de7dc74fcdea04a.png)
+![](https://doc.sce.xd.com/assets/images/添加对应-84be08b2507632d73de7dc74fcdea04a.png)
 
   6. 在下方的签名证书配置中新增安卓包，填入包名和签名
 
-![](/assets/images/新增安卓包-b80e24a8591c9ad82f6d85a567743fff.png)
+![](https://doc.sce.xd.com/assets/images/新增安卓包-b80e24a8591c9ad82f6d85a567743fff.png)
 
   7. 包名复制项目包名即可；签名的获取方式请参考[Android 平台获取 MD5](https://developer.taptap.cn/docs/sdk/access/android-md5/)
 
-![](/assets/images/包名-6892ecc3bb3d545a1e28d959dd463392.png)
+![](https://doc.sce.xd.com/assets/images/包名-6892ecc3bb3d545a1e28d959dd463392.png)
 
   8. 上传 .png 格式的图标
   9. 选择一键导出进入远端构建，构建时不可进行操作
